@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title> Home Page  </title>
+
+	<style>
+	
+		*{
+		
+			padding:0px;
+			margin:0px;
+		}
+		#parent{
+				
+				width:600px;
+				height:600px;
+				background-color:cyan;
+				position:absolute;
+				left:400px;
+				top:100px;				
+					
+		}
+		#child{
+			
+				position:absolute;
+				left:150px;
+				top:40px;
+				
+							
+		}
+		#child input{
+		
+			width:250px;
+			height:23px;
+			border-radius:20px;
+			margin-top:10px;			
+		}
+		#child label{
+		
+			font-size:20px;
+			font-style:italic;
+		
+		}
+		nav{
+		
+			background-color:cyan;
+																				
+		}
+		nav ul{
+		
+			text-align:center;
+			box-shadow:20px 10px 20px black;				
+		
+		}
+		nav li{
+		
+				list-style-type:none;
+				display:inline-block;
+				padding-right:170px;
+				font-size:25px;
+		
+		}
+	
+	</style>
+</head>
+<body>
+
+	<form action="HomePage.jsp" method="get">
+	
+		<div id="parent">
+			
+			<div id="child">
+				
+				<label> Enter Id  </label><br>
+				<input type="text" name="id"><br>
+				<label> Enter Name  </label><br>
+				<input type="text" name="name"><br>
+				<label> Enter city  </label><br>
+				<input type="text" name="city"><br>
+				<label> Enter course  </label><br>
+				<input type="text" name="course"><br>
+				<label> Enter contact  </label><br>
+				<input type="number" name="contact"><br>
+				<label> Enter age  </label><br>
+				<input type="text" name="age"><br><br>
+				
+				<input type="submit">
+												
+			</div>							
+		</div>
+			
+			
+		<nav>
+			
+			<ul>
+				<a href="Update.html"><li> Update </li></a>
+				<a href=""><li> display </li></a>
+				<a href="Search.html"><li> search </li></a>
+				<a href="Delete.html"><li> delete </li></a>
+			
+			<ul>
+				
+		<nav>		
+									
+	</form>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Update Page </title>
+
+	<style>
+		
+		body{
+		
+			background-color:cyan;
+		}
+		#parent{
+		
+				width:600px;
+				height:600px;
+				background-color:rgba(240, 240, 240,0.8);
+				position:absolute;
+				left:400px;
+				top:70px;
+		}
+		#child{
+					
+					position:absolute;
+					left:150px;
+					top:20px;'	
+								
+		}
+		#child input{
+		
+				width:250px;
+				height:20px;
+				border-radius:20px;
+				
+		}			
+		#child label{
+			
+			font-size:25px;
+			font-style-type:italic;
+		
+		}
+	</style>
+</head>
+<body>
+
+	<form action="Update.jsp" method="get">
+		
+		<div id="parent">
+			<div id="child">
+			
+					<label> Enter Id </label><br>
+					<input type="text" name="id"><br><br>
+					<label> Enter Name</label><br>
+					<input type="text" name="name"><br><br>
+					<label> Enter City </label><br>
+					<input type="text" name="city"><br><br>
+					<label> Enter Course </label><br>
+					<input type="text" name="course"><br><br>
+					<label> contact</label><br>
+					<input type="text" name="contact"><br><br>
+					<label> Enter Age </label><br>
+					<input type="text" name="age"><br><br>
+					
+					<input type="submit">
+			
+			</div>				
+		</div>	
+	</form>
+</body>
+</html>
